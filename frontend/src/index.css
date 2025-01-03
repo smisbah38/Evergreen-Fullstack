@@ -32,3 +32,10 @@ a.active hr {
 ::-webkit-scrollbar-track {
   background-color: #f0f0f0; /* Light background */
 }
+
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  ::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar on mobile devices */
+  }
+}
